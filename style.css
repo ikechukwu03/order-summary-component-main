@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Figtree:wght@600;800&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Outfit:wght@400;800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+/* the second line of code was what made sure the svg didnt repeat itself */
+  background-image: url('./assets/pattern-background-desktop.svg');
+  background-repeat:no-repeat;
+  overflow-x: hidden;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Figtree', sans-serif;
+  font-family: 'Fraunces', serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 10px 10px rgb(204, 203, 203);
+}
+
+.svg img{
+  height: 197px;
+  width: 400px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.words{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.order h1{
+  color: hsl(223, 47%, 23%); 
+  text-align: center;
+  margin: 17px 0;
+}
+.order p{
+  text-align: center;
+  line-height: 25px;
+  color:  hsl(224, 23%, 55%);
+  font-size: 18px;
+}
+
+.layer4{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 25px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+.annual{
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+.annual img{
+  margin-right: 15px;
+}
+.plan p{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+.plan span{
+  line-height: 25px;
+  color:  hsl(224, 23%, 55%);
+}
+.layer4 a:hover{
+  text-decoration: none;
+  color: #766CF1;
+}
+
+.layer5{
+  margin-top: 30px;
+  padding: 10px;
+  width: 70%;
+  text-align: center;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: white;
+  box-shadow: -1px 14px 10px rgb(204, 203, 203);
+}
+.layer5:hover{
+  cursor: pointer;
+  background-color: #766CF1;
+}
+
+.final{
+  margin-top: 30px;
+  color:  hsl(224, 23%, 55%);
+}
+.final:hover{
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
